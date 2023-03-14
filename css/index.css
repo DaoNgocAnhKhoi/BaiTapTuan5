@@ -79,5 +79,51 @@
     border-right: 1px solid #DBDBD9;
 }
 
+#center .carousel .carousel__container {
+    background-image: url("/img/img_big.png");
+    background-size: contain;
+    width: 845px;
+    height: 460px;
+    margin-top: 30px;
+}
+
+#center .carousel__container {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#center .carousel__container .carousel__name {
+    display: flex;
+    font-size: 15px;
+    padding: 10px 5px;
+    background-color: rgba(0, 0, 0, 0.336);
+    color: white;
+    font-weight: 300;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    height: 20px;
+}
+
+#center .carousel__list .carousel__list__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#center .carousel__container .carousel__name img {
+    width: 10px;
+}
+
+#center .carousel__list .carousel__container {
+    padding: 0;
+    background-image: url(/img/img2.png);
+    width: 260px;
+    height: 160px;
+}
+
+#center .carousel__list .carousel__container .carousel__name {
+    font-size: 13px;
+}
+
 
 /* EAECEE  */
