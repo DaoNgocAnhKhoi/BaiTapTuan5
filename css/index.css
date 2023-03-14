@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#center {
+    margin-left: 35px;
+}
+
+#wrapper {
+    margin-top: 20px;
+}
+
+.title__up {
+    display: flex;
+    justify-content: space-between;
+}
+
+#center .title {
+    margin-top: 20px;
+}
+
+#center .title h1 {
+    font-size: 30px;
+}
+
+#center .title .title__time {
+    display: inline;
+    border: 1px solid #E34D73;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 15px;
+    color: #E34D73;
+}
+
+#center .title .title__time img {
+    width: 10px;
+    margin-right: 10px;
+    color: #E34D73;
+}
+
+#center .title .title__time img path {
+    fill: #E34D73;
+}
+
+#center .title .title__down {
+    margin-top: 20px;
+}
+
+#center .title .title__down #user {
+    padding: 7px 12px;
+    background-color: #E34D73;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#center .title .title__down #user i {
+    font-size: 10px;
+}
+
+#center .title .title__down #user span {
+    display: inline-block;
+    padding: 3px 7px;
+    border-radius: 50%;
+    background: white;
+    color: #E34D73;
+}
+
+#center .title .title__down .title_diff {
+    padding: 0 10px;
+}
+
+#center .title .title__down .title_diff.celendar img {
+    padding-right: 10px;
+}
+
+#center .title .title__down .title_diff.celendar {
+    border-right: 1px solid #DBDBD9;
+}
+
+
+/* EAECEE  */
